@@ -1,0 +1,30 @@
+.header {
+  
+    margin: 0 auto;
+    display: flex;
+    height: 220px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--fonts-len-1);
+  }
+  .header__logo {
+    /* height: 110px; */
+  
+  }
+  .header__nav {
+    width: auto;
+    padding-right: 593px;
+    padding-left: 90px;
+  }
+  .header__nav-ul{
+    display: flex;
+    margin: 0;
+    list-style: none;
+  }
+  .header__nav-ul li a{
+    text-decoration: none;
+    padding-left: 60px;
+    list-style: none;
+    color: var(--color-2);
+  }

@@ -1,0 +1,20 @@
+.caracteristicas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 750px;
+    width: 100%;
+}
+.caracteristicas__container {
+    text-align: center;
+}
+.caracteristicas__container h3 {
+    font-size: var(--fonts-len-3);
+    font-weight: 700;
+    color: var(--color-2);
+}
+
+.caracteristicas__container p {
+    font-size: var(--fonts-len-5);
+    color: var(--color-2);
+}

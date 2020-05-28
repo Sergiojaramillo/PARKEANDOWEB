@@ -1,0 +1,53 @@
+
+.Cara2__main {
+    background-image: url(../assets/Rectángulo\ 21.png);
+    width: auto;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.Carac2 h1 {
+    text-align: left;
+    color: var(--color-2);
+    font-size: var(--fonts-len-7);
+}
+.caracteristicas2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caracteristicas2__left  {
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.caracteristicas2__left--container  {
+    width: 229px;
+    padding-bottom: 50px;
+    margin-right: 90px;
+    margin-top: 30px;
+}
+
+.cara2-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+.cara2-container h3 {
+    display: inline;
+    padding-left: 20px;
+    color: var(--color-2);
+    font-size: var(--fonts-len-3);
+}
+.caracteristicas2__left--container article{
+    color: var(--color-2);
+    font-size: var(--fonts-len-6);
+    
+}
+.caracteristicas2__rigth img {
+    width: 750px;
+    height: 520px;
+}

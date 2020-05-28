@@ -1,0 +1,83 @@
+.main__O {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+}
+.Opiniones {
+    text-align: center;
+    margin-right: 0;
+    margin-left: 60px;
+}
+.Opiniones__upper {
+    
+    text-align: left;
+    width: 1200px;
+    margin:0 0 80px 165px;
+    font-size: var(--fonts-len-7);  
+    color: var(--color-2);
+}
+
+.Opiniones__middle__container {
+    width: 302px;
+    text-align: left;
+}
+.Opiniones__middle__container h3{
+    text-align: left;
+}
+.Opiniones__middle {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1600px;
+    margin-bottom: 60px;
+
+}
+.Opiniones__middle__container__m {
+    color: var(--color-2);
+    font-size: var(--fonts-len-4);
+    display: flex;
+    justify-content: left;
+}
+.Opiniones__middle__container__m h3 {
+    padding-right: 30px;
+    color: var(--color-2);
+    font-size: var(--fonts-len-4);
+  
+}
+.Opiniones__middle__container p {
+    text-align: left;
+    color: var(--color-2);
+    font-size: var(--fonts-len-6);
+}
+.Opiniones__lower {
+   text-align: center;
+   width: 100%;
+}
+.Opiniones__lower h1 {
+    color: var(--color-2);
+    font-size: var(--fonts-len-7);
+}
+.Opiniones__lower__buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px ;
+}
+.Opiniones__lower__2 input{
+    background-color: #e6e6e6;
+    width: 383px;
+    height: 83px;
+    border: 0;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.Opiniones__lower__2 button{
+    background-image: url('../assets/Rectángulo\ 105.png');
+    background-repeat: no-repeat;
+    width: 273px;
+    height: 83px;
+    border: 0;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: var(--fonts-len-1);
+    margin-left: 10px;
+}

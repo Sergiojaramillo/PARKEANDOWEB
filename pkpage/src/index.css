@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;700;800&display=swap');
+@import './components/header.css';
+@import './components/descripcion.css';
+@import './components/caracteristicas.css';
+@import './components/Cara2.css';
+@import './components/Footer.css';
+@import './components/Opiniones.css';
+
+:root {
+  --fonts-len-1: 22px; 
+  --fonts-len-2: 65px; 
+  --fonts-len-3: 25px;
+  --fonts-len-4: 24px;
+  --fonts-len-5: 20px;
+  --fonts-len-6: 18px;
+  --fonts-len-7: 50px;
+
+  --font-type-1: 'Raleway', sans-serif;
+  --color-1: #13b0e3;
+  --color-2: #707070;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-type-1);
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

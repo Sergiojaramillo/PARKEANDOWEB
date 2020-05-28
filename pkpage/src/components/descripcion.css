@@ -1,0 +1,58 @@
+.Description {    
+    display: flex;
+    background-image: url(../assets/Rectángulo8.png);
+    width: 100%;
+    height: 932px;
+    
+}
+.Description__container__left {
+    position: absolute;
+    width: 526px;
+    height: 350px;
+    top: 450px;
+    left: 250px;
+    z-index: 2;
+    text-align: left;
+    
+}
+.Description__container__left__upper {
+    font-size: var(--fonts-len-2);
+	color: var(--color-1);
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.Description__container__left__middle {
+    width: 496px;
+    height: 71px;
+    color: var(--color-2);
+    font-size: var(--fonts-len-5);
+    margin-bottom: 25px;
+
+}
+.Description__container__left__lower {
+    width: 468px;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-right: 0; */
+}
+.ios-button {
+    background-image: url(../assets/appstore.png);
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 54.5px;
+    border: 0;
+    margin-right: 20px;
+}
+.android-button {
+    background-image: url(../assets/playstore.png);
+    background-repeat: no-repeat;
+    width: 169px;
+    height: 54.5px;
+    border: 0;
+    margin-left: 20px;
+}
+.Description__container__rigth img {
+    position: absolute;
+    right: 0;
+}
