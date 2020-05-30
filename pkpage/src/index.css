@@ -5,6 +5,7 @@
 @import './components/Cara2.css';
 @import './components/Footer.css';
 @import './components/Opiniones.css';
+@import './components/mediaqueries.css';
 
 :root {
   --fonts-len-1: 22px; 

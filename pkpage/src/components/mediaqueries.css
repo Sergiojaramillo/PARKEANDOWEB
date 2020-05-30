@@ -1,0 +1,107 @@
+@media (max-width: 376px) {
+    body {
+        max-width: 374px;
+        /* width: fit-content; */
+    }
+    .header {
+        margin: 0;
+        /* width: 359px; */
+        text-align: center;
+    }
+    .header__logo img{
+        width: 50px;
+        height: 70px;
+    }
+    .header__nav {
+        display: none;
+        padding-right: 0;
+        width: 100%;
+    }
+    .caracteristicas {
+        display: block;
+        height: auto;
+    }
+    .Description {
+        max-width: 375px;
+        height: 100vh;
+        display: inline-block;
+    }
+    .Description__container__left {
+        width: 375px;
+        left: 0;
+        top: 215px;
+    }
+    .Description__container__left__upper {
+        font-size: 30px;
+    }
+    .Description__container__left__middle {
+        max-width: 375px;
+        height: auto;
+    }
+    .Description__container__rigth img{
+        position: static;
+        width: 374px;
+        left: 0;
+        opacity: 0.4;
+    }
+    .Description__container__left__lower {
+        width: auto;
+        display: block;
+        text-align: center;
+    }
+    .Cara2__main {
+        height: auto;
+    }
+    .caracteristicas2__rigth {
+        display: none;
+    }
+    .caracteristicas2__left {
+       width: auto;
+
+    }
+    .caracteristicas2__left--container {
+        width: auto;
+        margin: 0 auto;
+     }
+    .Opiniones {
+        margin-left: 0;
+     }
+    .Opiniones__middle {
+        width: auto;
+        flex-wrap: wrap;
+        /* display: block; */
+    } 
+    .Opiniones__upper {
+        text-align: center;
+        width: auto;
+        margin: 0;
+    }
+    .Opiniones__lower {
+        max-width: 374px;
+    }
+    .main__O {
+        height: auto;
+    }
+    .Opiniones__lower__buttons {
+        display: block;
+    }
+    .ios-button {
+        margin-right: 0;
+    }
+    .footer {
+        display: block;
+        margin-top: 20px;
+    }
+    .footer__left--upper{
+        padding-left: 0;
+        text-align: center;
+    }
+    .footer__left--lower ul{
+        text-align: center;
+        display: block;
+        padding-left: 0;
+    }
+    .footer__rigth--upper{
+        text-align: center;
+    }
+}
