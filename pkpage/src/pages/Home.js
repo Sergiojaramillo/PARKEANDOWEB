@@ -6,10 +6,13 @@ import Caracteristicas from '../components/Carateristicas';
 import Cara2 from '../components/Cara2';
 import Footer from '../components/Footer';
 import Opiniones from '../components/Opiniones';
+// import Burguer from '../components/Burguer';
+// import { slide as Menu } from 'react-burger-menu';
 
 
 
 class Home extends React.Component {
+
     render() {
         return (
            <React.Fragment>

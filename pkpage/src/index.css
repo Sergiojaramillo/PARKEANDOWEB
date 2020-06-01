@@ -6,6 +6,8 @@
 @import './components/Footer.css';
 @import './components/Opiniones.css';
 @import './components/mediaqueries.css';
+@import './components/Contactos.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 :root {
   --fonts-len-1: 22px; 
@@ -19,6 +21,7 @@
   --font-type-1: 'Raleway', sans-serif;
   --color-1: #13b0e3;
   --color-2: #707070;
+  --color-b: #ffffff;
 }
 
 body {

@@ -1,0 +1,52 @@
+.main__contactos {
+    background-color: #c8def1;
+    height: 487px;
+    width: 100%;
+    font-size: var(--fonts-len-6);
+    color: var(--color-2);
+   
+}
+.main__contactos h1 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    color: var(--color-b);
+    font-size: var(--fonts-len-2);
+    
+}
+.main__contactos__c {
+    position: relative;
+    width: inherit; 
+    display: flex;
+    top: 300px;
+}
+
+
+
+.form__backg {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    width: 1000px;
+    height: auto;
+    padding: 50px;
+}
+.form {
+    /* width: 1346px ; */
+}
+.Enviar__button {
+    background-image: url('../assets/Rectángulo\ 105.png');
+    background-repeat: no-repeat;
+    width: 273px;
+    height: 83px;
+    border: 0;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: var(--fonts-len-1);
+    margin-left: 10px;
+}
+.PrevButton__enviar {
+    margin-top: 80px ;
+    display: flex;
+    justify-content: center;
+}

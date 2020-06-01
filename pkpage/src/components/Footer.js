@@ -27,8 +27,8 @@ class Footer extends React.Component {
                  </div>
                  <div className="footer__rigth">
                      <div className="footer__rigth--upper">
-                         <img src={face}></img>
-                         <img src={insta}></img>
+                         <img src={face} alt="Not Found"></img>
+                         <img src={insta} alt="Not Found"></img>
                      </div>
                      <div className="footer__rigth--lower">2020 Parkeando</div>
                  </div>

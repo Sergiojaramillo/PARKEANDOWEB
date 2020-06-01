@@ -1,3 +1,22 @@
+.burguer {
+  height: 40px;
+}
+.burguer-button {
+    background-image: url(../assets/h.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(34, 5, 5, 0.774);
+    display: none;
+    line-height: 40px;
+    text-align: center;
+    position: sticky;
+    z-index: 4;
+    left: 5px;
+    top: 5px;
+    color: white;
+}
 .header {
   
     margin: 0 auto;
@@ -7,10 +26,6 @@
     justify-content: center;
     align-items: center;
     font-size: var(--fonts-len-1);
-  }
-  .header__logo {
-    /* height: 110px; */
-  
   }
   .header__nav {
     width: auto;

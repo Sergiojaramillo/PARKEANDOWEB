@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import logo from '../assets/logo.png';
 
@@ -13,7 +14,7 @@ class header extends React.Component {
                 <nav className="header__nav">
                     <ul className="header__nav-ul">
                         <li>
-                            <a href="/">Home</a>
+                            <Link to="/home">Home</Link>
                         </li>
                         
                         <li>
@@ -24,11 +25,12 @@ class header extends React.Component {
                             <a href="/">Caracteristicas</a>
                         </li>
                         <li>
-                            <a href="/">Contactos</a>
+                            <Link to="/Contactos">Contactos</Link>
                         </li>
                     </ul>
                 </nav>
             </header>
+        
         )
     }
 }

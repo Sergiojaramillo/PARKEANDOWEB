@@ -13,26 +13,26 @@ class Opiniones extends React.Component {
                 <div className="Opiniones__upper">Opiniones</div>    
                 <div className="Opiniones__middle">
                     <div className="Opiniones__middle__container">
-                        <img src={grupo1}></img>
+                        <img src={grupo1} alt="Not Found"></img>
                         <div className="Opiniones__middle__container__m">
                             <h3>Santiago Mejia</h3>
-                            <img src={rig}></img>
+                            <img src={rig} alt="Not Found"></img>
                         </div>
                         <p>La aplicación es muy buena, me ahorra tiempo. Se las recomiendo.</p>
                     </div>        
                     <div className="Opiniones__middle__container">
-                        <img src={grupo2}></img>
+                        <img src={grupo2} alt="Not Found"></img>
                         <div className="Opiniones__middle__container__m">
                             <h3>Manuel Garcia</h3>
-                            <img src={rig}></img>
+                            <img src={rig} alt="Not Found"></img>
                         </div>
                         <p>Me encanta esta aplicación, la funcionalidad y el look. 1Son una de las mejores aplicaciones! Que bueno haberlos encontrado.</p>
                     </div>        
                     <div className="Opiniones__middle__container">
-                        <img src={grupo3}></img>
+                        <img src={grupo3} alt="Not Found"></img>
                         <div className="Opiniones__middle__container__m">
                             <h3>Estefanía Castro</h3>
-                            <img src={rig}></img>
+                            <img src={rig} alt="Not Found"></img>
                         </div>
                         <p>Llevo usando Parkeando unos 5 días y es genial. Gracias.</p>
                     </div>        
